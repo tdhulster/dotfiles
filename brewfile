@@ -1,0 +1,21 @@
+# Taps
+tap 'caskroom/cask'
+tap 'homebrew/bundle'
+
+# Install Binaries
+brew 'node'
+brew 'mas'
+
+# Apps
+cask 'google-chrome'
+cask 'google-drive'
+cask 'slack'
+cask 'vlc'
+cask 'iterm2'
+
+# Quicklook
+
+# Fonts
+
+# Install Mac App Store apps
+
