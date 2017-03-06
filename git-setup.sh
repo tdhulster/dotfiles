@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Git credentials
 GIT_AUTHOR_NAME="Thijs D'hulster"
 GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"

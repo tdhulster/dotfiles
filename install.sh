@@ -13,3 +13,6 @@ brew update
 # Install all our dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
 brew bundle
+
+echo "Setup git credentials"
+source ./git-setup.sh
