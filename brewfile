@@ -12,6 +12,7 @@ cask 'google-drive'
 cask 'slack'
 cask 'vlc'
 cask 'iterm2'
+cask 'intellij-idea'
 
 # Quicklook
 
