@@ -13,6 +13,9 @@ cask 'slack'
 cask 'vlc'
 cask 'iterm2'
 cask 'intellij-idea'
+cask 'remote-play'
+cask 'slate'
+cask 'java'
 
 # Quicklook
 
