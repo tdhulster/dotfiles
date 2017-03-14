@@ -16,6 +16,7 @@ cask 'intellij-idea'
 cask 'remote-play'
 cask 'slate'
 cask 'java'
+cask 'teamviewer'
 
 # Quicklook
 
