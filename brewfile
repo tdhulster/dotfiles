@@ -23,5 +23,4 @@ cask 'teamviewer'
 # Fonts
 
 # Install Mac App Store apps
-mas 'Slack', id: 803453959
 mas 'Deckset', id: 847496013
