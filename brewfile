@@ -17,6 +17,7 @@ cask 'remote-play'
 cask 'slate'
 cask 'java'
 cask 'teamviewer'
+cask 'atom'
 
 # Quicklook
 
