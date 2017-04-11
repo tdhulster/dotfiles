@@ -18,6 +18,7 @@ cask 'slate'
 cask 'java'
 cask 'teamviewer'
 cask 'atom'
+cask 'grammarly'
 
 # Quicklook
 
@@ -25,3 +26,5 @@ cask 'atom'
 
 # Install Mac App Store apps
 mas 'Deckset', id: 847496013
+mas 'Xcode', id: 497799835
+
