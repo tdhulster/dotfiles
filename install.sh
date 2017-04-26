@@ -16,3 +16,9 @@ brew bundle
 
 echo "Setup git credentials"
 source ./git-setup.sh
+
+ln -s .slate ~/
+
+source ./.macos
+
+
