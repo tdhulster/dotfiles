@@ -27,4 +27,5 @@ cask 'grammarly'
 # Install Mac App Store apps
 mas 'Deckset', id: 847496013
 mas 'Xcode', id: 497799835
+mas 'Pages', id: 409201541
 

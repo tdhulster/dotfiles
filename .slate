@@ -1,7 +1,6 @@
 # GLOBAL CONFIGURATIONS
 # -------------------------------------------------------------------
 # See https://github.com/jigish/slate/wiki/Global-Configs
-
 config defaultToCurrentScreen true
 config secondsBeforeRepeat 0.4
 config secondsBetweenRepeat 0.1
@@ -14,8 +13,12 @@ config resizePercentOf screenSize
 # The "hyper" key is a shortcut for CTRL + ALT + CMD
 alias hyper ctrl;cmd
 
-# Push Bindings
+# PUSH BINDINGS
+# -------------------------------------------------------------------
 bind right:${hyper}  push right bar-resize:screenSizeX/2
 bind left:${hyper}   push left  bar-resize:screenSizeX/2
-bind up:${hyper}   push down  bar-resize:screenSizeY
+bind up:${hyper}     push down  bar-resize:screenSizeY
 
+bind l:${hyper}  push right bar-resize:screenSizeX/2
+bind j:${hyper}   push left  bar-resize:screenSizeX/2
+bind i:${hyper}     push down  bar-resize:screenSizeY

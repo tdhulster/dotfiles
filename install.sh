@@ -1,5 +1,7 @@
 #!/bin/sh
 
+BASEDIR=${PWD}
+
 echo "Setting up your Mac..."
 
 # Check for Homebrew and install if we don't have it
@@ -17,7 +19,12 @@ brew bundle
 echo "Setup git credentials"
 source ./git-setup.sh
 
-ln -s .slate ~/
+# Symlink dotfiles
+ln -sf ${BASEDIR}/.slate ~/
+ln -sf ${BASEDIR}/.bash_profile ~/
+
+# Reload bash profile 
+source ~/.bash_profile
 
 source ./.macos
 
