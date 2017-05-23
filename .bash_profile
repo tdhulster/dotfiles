@@ -30,6 +30,11 @@ alias java6='export JAVA_HOME=$JAVA_6_HOME'
 #default java8
 export JAVA_HOME=$JAVA_8_HOME
 
+export MAVEN_OPTS="-Xmx3000m"
+
+alias maven30="brew unlink maven && brew link maven30"
+alias maven35="brew unlink maven30 && brew link maven"
+
 #   -----------------------------
 #   2. MAKE TERMINAL BETTER
 #   -----------------------------
