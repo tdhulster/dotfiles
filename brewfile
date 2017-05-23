@@ -20,6 +20,7 @@ cask 'teamviewer'
 cask 'atom'
 cask 'grammarly'
 cask 'tower'
+cask 'firefox'
 
 # Quicklook
 
