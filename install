@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 BASEDIR=${PWD}
 
@@ -17,7 +17,7 @@ brew tap homebrew/bundle
 brew bundle
 
 echo "Setup git credentials"
-source ./git-setup.sh
+source ./git-setup
 
 # Symlink dotfiles
 ln -sf ${BASEDIR}/.slate ~/
@@ -28,4 +28,4 @@ source ~/.bash_profile
 
 source ./.macos
 
-
+source ./dpp-install
