@@ -1,10 +1,13 @@
 # Taps
 tap 'caskroom/cask'
 tap 'homebrew/bundle'
+tap 'homebrew/services'
 
 # Install Binaries
 brew 'node'
 brew 'mas'
+brew 'mongodb', restart_service: true
+brew 'awscli'
 
 # Apps
 cask 'google-chrome'
@@ -21,6 +24,10 @@ cask 'atom'
 cask 'grammarly'
 cask 'tower'
 cask 'firefox'
+cask 'robo-3t'
+cask 'alfred'
+cask 'transmit'
+cask 'filezilla'
 
 # Quicklook
 
@@ -30,4 +37,3 @@ cask 'firefox'
 mas 'Deckset', id: 847496013
 mas 'Xcode', id: 497799835
 mas 'Pages', id: 409201541
-
