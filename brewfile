@@ -2,12 +2,18 @@
 tap 'caskroom/cask'
 tap 'homebrew/bundle'
 tap 'homebrew/services'
+tap 'fisherman/tap'
 
 # Install Binaries
 brew 'node'
 brew 'mas'
 brew 'mongodb', restart_service: true
 brew 'awscli'
+brew 'sbt'
+brew 'gradle'
+brew 'elm'
+brew 'fish'
+brew 'fisherman'
 
 # Apps
 cask 'google-chrome'
@@ -16,6 +22,7 @@ cask 'slack'
 cask 'vlc'
 cask 'iterm2'
 cask 'intellij-idea'
+cask 'webstorm'
 cask 'remote-play'
 cask 'slate'
 cask 'java'
@@ -28,8 +35,21 @@ cask 'robo-3t'
 cask 'alfred'
 cask 'transmit'
 cask 'filezilla'
+cask 'visual-studio-code'
 
-# Quicklook
+# Quikclook
+cask 'qlcolorcode'
+cask 'qlstephen'
+cask 'qlmarkdown'
+cask 'quicklook-json'
+cask 'qlprettypatch'
+cask 'quicklook-csv'
+cask 'betterzipql'
+cask 'qlimagesize'
+cask 'webpquicklook'
+cask 'suspicious-package'
+cask 'quicklookase'
+cask 'qlvideo'
 
 # Fonts
 
