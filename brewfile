@@ -36,6 +36,7 @@ cask 'alfred'
 cask 'transmit'
 cask 'filezilla'
 cask 'visual-studio-code'
+cask 'flux'
 
 # Quikclook
 cask 'qlcolorcode'
