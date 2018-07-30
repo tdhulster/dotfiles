@@ -3,6 +3,7 @@ tap 'caskroom/cask'
 tap 'homebrew/bundle'
 tap 'homebrew/services'
 tap 'fisherman/tap'
+tap 'caskroom/fonts'
 
 # Install Binaries
 brew 'node'
@@ -37,6 +38,7 @@ cask 'transmit'
 cask 'filezilla'
 cask 'visual-studio-code'
 cask 'flux'
+cask 'font-hack-nerd-font'
 
 # Quikclook
 cask 'qlcolorcode'
