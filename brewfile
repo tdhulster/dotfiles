@@ -13,8 +13,7 @@ brew 'awscli'
 brew 'sbt'
 brew 'gradle'
 brew 'elm'
-brew 'fish'
-brew 'fisherman'
+brew 'zsh'
 
 # Apps
 cask 'google-chrome'
