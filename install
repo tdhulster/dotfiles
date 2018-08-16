@@ -28,6 +28,7 @@ source ./git-setup
 # Symlink dotfiles
 ln -sf ${BASEDIR}/.slate ~/
 ln -sf ${BASEDIR}/.bash_profile ~/
+ln -sf ${BASEDIR}/.zshrc ~/
 
 # Reload bash profile 
 source ~/.bash_profile
