@@ -95,3 +95,13 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+#-------------------------------------------------------#
+
+# Init jENV
+if which jenv > /dev/null; then eval "$(jenv init -)"; fi
+
+# Onelogin integration.
+export AWS_PROFILE=onelogin
+export AWS_DEFAULT_REGION=eu-west-1
+alias onelogin='java -jar $HOME/onelogin/onelogin-aws-cli.jar -p onelogin'
